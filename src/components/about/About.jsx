@@ -28,7 +28,7 @@ const About = () => {
             <div className="a-wrapper">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                Sub heading consectetur adipiscing elit. Vestibulum ornare lobortis quam, eget tincidunt ligula tempor ac. 
+                Sub heading consectetur adipiscing elit. 
                 </p>
                 <p className="a-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare lobortis quam, eget tincidunt ligula tempor ac. Donec suscipit et arcu tempus faucibus. Mauris volutpat turpis sit amet malesuada accumsan. Suspendisse at metus tincidunt, aliquet justo ac, fermentum mauris. Donec gravida sit amet sapien et bibendum. Sed suscipit, dui vitae pharetra volutpat, purus velit condimentum diam, id sollicitudin ipsum nunc in felis. Sed dictum dolor non lectus aliquet, in venenatis justo imperdiet. Vestibulum mattis elementum odio, at feugiat ligula luctus et. 
