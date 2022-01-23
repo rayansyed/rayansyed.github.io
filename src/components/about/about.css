@@ -1,8 +1,15 @@
-.a{
+.a-container{
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+
     
+}
+
+.a-title{
+    padding-top: 10px;
+    padding-left: 100px;
 }
 
 .a-left{
@@ -47,7 +54,7 @@
 
 .a-wrapper{
     flex: 1;
-    padding: 100px;
+    padding: 10px 100px;
     align-items: center;
     justify-content: center;
 
@@ -87,6 +94,8 @@
     height: 80px; 
 }
 
+
+
 @media screen and (max-width:480px) {
     .a{
         flex-direction: column;
@@ -100,6 +109,10 @@
         border-radius: 10px;
   
    
+    }
+
+    .a-container{
+        padding-top: 10px;
     }
 
     .a-title{
@@ -116,6 +129,7 @@
     }
 
     .a-wrapper{
+        margin: auto;
         width: 80%;
         padding: 10px;
     }
@@ -130,6 +144,7 @@
 
     }
     .a-title{
-        padding: 10px 40px;
+        padding-top: 10px;
+        padding-left: 40px;
     }
 }
