@@ -4,7 +4,7 @@ import React from 'react';
 import HoverVideoPlayer from 'react-hover-video-player';
 
 
-const Product = ({img,link,title,desc,subheading,date,video}) => {
+const Product = ({img,link,title,desc,subheading,date,video,features}) => {
 
 
     return (
@@ -43,6 +43,9 @@ const Product = ({img,link,title,desc,subheading,date,video}) => {
                 <h4 className="p-subheading">{subheading}</h4>
                 <h4 className="p-date">{date}</h4>
                 <p className="p-desc">{desc}</p>
+                <br></br>
+                <h4 className="p-subheading">Highlights</h4>
+                <p>{features}</p>
                 <a href={link}>View</a>            
             </div>
 

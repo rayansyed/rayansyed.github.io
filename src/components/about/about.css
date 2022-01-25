@@ -101,7 +101,7 @@
         flex-direction: column;
         overflow-y: scroll;
         overflow-x: hidden;
-        width: 80%;
+        width: 75%;
         margin: auto;
         border-color: rgba(90, 90, 90, 0.068);
         border-style: solid;
@@ -145,6 +145,6 @@
     }
     .a-title{
         padding-top: 10px;
-        padding-left: 40px;
+        padding-left: 47px;
     }
 }

@@ -28,10 +28,9 @@ const About = () => {
             <div className="a">
                 <div className="a-wrapper">
                     <p className="a-sub">
-                    Sub heading consectetur adipiscing elit. 
                     </p>
                     <p className="a-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare lobortis quam, eget tincidunt ligula tempor ac. Donec suscipit et arcu tempus faucibus. Mauris volutpat turpis sit amet malesuada accumsan. Suspendisse at metus tincidunt, aliquet justo ac, fermentum mauris. Donec gravida sit amet sapien et bibendum. Sed suscipit, dui vitae pharetra volutpat, purus velit condimentum diam, id sollicitudin ipsum nunc in felis. Sed dictum dolor non lectus aliquet, in venenatis justo imperdiet. Vestibulum mattis elementum odio, at feugiat ligula luctus et. 
+                    Hi, I'm Rayan! I recently graduated from Sheridan College with a degree in Computer Science (Mobile Computing). I have a passion for developing mobile and web applications, with experience in object oriented programming principles and concepts. Outside of software development, I enjoy photography, watching sports, and playing video games!
                     </p>
                     <h3 className="a-education">Education</h3>
                     <div className="a-school">

@@ -9,7 +9,7 @@ const ProductList = () => {
             </div>
             <div className="pl-list">
                 {products.map((item) =>(
-                    <Product key={item.id} img={item.img} link={item.link} title={item.title} desc={item.desc} subheading={item.subheading} date={item.date} video={item.video}/>
+                    <Product key={item.id} img={item.img} link={item.link} title={item.title} desc={item.desc} subheading={item.subheading} date={item.date} video={item.video} features={item.features}/>
                 ))}
             </div>
         </div>
