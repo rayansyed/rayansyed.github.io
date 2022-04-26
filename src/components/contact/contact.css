@@ -1,0 +1,117 @@
+.c{
+    height: 75vh;
+    position: relative;
+    background-color: white ;
+    padding: 50px 100px;
+    display: flex;
+
+}
+
+.c-right{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 80%;
+    color: black;
+}
+
+
+
+.c-textarea{
+    width: 75vw;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.c-desc{
+    font-weight: 200;
+}
+
+.c-info{
+    margin-top: 20px;
+}
+
+.c-form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    background-color: #0091ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:480px) {
+
+    .c{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .c-form{
+        width: 100%;
+    }
+    
+
+    .c-title{
+        font-size: 35px;
+        text-align: left;
+        
+    }
+
+    input{
+        width: 80%;
+        height: 50px;
+    }
+
+    .c-textarea{
+        width: 80%;
+        font-size: 14px;
+    }
+    
+
+
+    
+    
+
+
+}

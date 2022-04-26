@@ -1,0 +1,54 @@
+.pl{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.pl-texts{
+    width: 65%;
+    text-align: left;
+}
+
+.pl-title{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.pl-desc{
+    margin: 20px 0px;
+}
+
+.pl-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width:480px) {
+    .pl-list{
+        flex-direction: column;
+        display: inline-block;
+    }
+    
+    .pl{
+        padding: 10px 40px;
+        height: 120vh;
+
+    }
+
+    .pl-title{
+        font-size: 35px;
+    }
+
+    .pl-texts{
+        width: 80%;
+    }
+
+
+}
